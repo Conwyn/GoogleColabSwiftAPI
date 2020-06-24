@@ -195,4 +195,5 @@ for (key,value) in dictionaryOfFiles {
                            }
 }
        }
+return "YES"
 }
