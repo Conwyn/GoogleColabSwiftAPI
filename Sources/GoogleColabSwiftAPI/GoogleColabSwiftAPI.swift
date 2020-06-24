@@ -119,7 +119,7 @@ taskl.resume()
  semaphorel.wait()
     return  filelistDictionary 
 }
-func test()->String {
+public func test()->String {
 print(printCurrentDirectory())
 
 let myjson=[
