@@ -120,7 +120,7 @@ taskl.resume()
  semaphorel.wait()
     return  filelistDictionary 
 }
-
+func test()->String {
 print(printCurrentDirectory())
 
 let myjson=[
@@ -196,3 +196,4 @@ for (key,value) in dictionaryOfFiles {
                            }
 }
        }
+}
