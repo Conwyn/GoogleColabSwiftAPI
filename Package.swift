@@ -11,7 +11,9 @@ let package = Package(
             name: "GoogleColabSwiftAPI",
             targets: ["GoogleColabSwiftAPI"]),
     ],
-    dependencies: [
+    dependencies: [.package(url: "https://github.com/IBM-Swift/Swift-JWT.git", from: "3.0.0"),
+
+
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
