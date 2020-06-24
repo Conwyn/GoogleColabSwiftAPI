@@ -154,7 +154,7 @@ claims: myClaims)
 let secret:Data=myjson["private_key"]!.data(using: .utf8)!
 
 
-let signedJWT:String = try jwt.sign(using: .rs256(privateKey: secret))
+let signedJWT:String = try! jwt.sign(using: .rs256(privateKey: secret))
 
 var dataReturned = getAccessToken(privateKey: secret,emailName: ce, signedJWT: signedJWT)
 
